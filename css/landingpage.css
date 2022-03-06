@@ -7,7 +7,9 @@
 }
 .top{
     background-color: #f9ebc6;
-    width: 80%;
+    /* width: 80%; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .first{
     position: relative;
@@ -32,7 +34,12 @@ footer{
     height: 150px;
     position: relative;
     top: 100px;
-    width: 80%;
+    /* width: 80%; */
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 main{
     padding: 50px;
