@@ -41,11 +41,16 @@ footer{
     justify-content: center;
 }
 .footer{
-    border: solid 2px black;
+    /* border: solid 2px black; */
     display: flex;
     justify-content: space-around;
 }
-main{
+.footer a i{
+    font-size: xx-large;
+    /* font-weight: bolder; */
+    color: black;
+}
+/* main{
     padding: 50px;
     /* width: auto; */
     background-image: url('https://media1.giphy.com/media/26u4oh3BsaUOqHpYc/giphy.gif');
@@ -53,4 +58,4 @@ main{
     background-size: cover;
     background-repeat: no-repeat ;
     background-attachment: fixed;
-}
+} */
