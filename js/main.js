@@ -32,9 +32,9 @@ function myFunction() {
 
     let tarehe = new Date(year.value + ',' + month.value + ',' + date.value);
 
-    p1.innerHTML = genders.value
+    p1.innerHTML = tarehe.getDay()
 
-    p2.innerHTML = maleAkanNames[5]
+    p2.innerHTML = maleAkanNames[6]
 
     p3.innerHTML = week.indexOf('Friday')
 
@@ -43,10 +43,46 @@ function myFunction() {
     if (yourName.value === '' || yourName.value == null){
         alert('please input name')
     } 
-    if(genders.value == 'male' && tarehe.getDay() == week.indexOf('Friday')){
-        p5.innerHTML = 'Your Akan name is:' + ' ' + maleAkanNames[5]
+    if(genders.value == 'male' && tarehe.getDay() == week.indexOf('Sunday')){
+        p5.innerHTML ='Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + maleAkanNames[0]
+    } 
+    else if(genders.value == 'male' && tarehe.getDay() == week.indexOf('Monday')){
+        p5.innerHTML = 'Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + maleAkanNames[1]
+    } 
+    else if(genders.value == 'male' && tarehe.getDay() == week.indexOf('Tuesday')){
+        p5.innerHTML = 'Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + maleAkanNames[2]
+    } 
+    else if(genders.value == 'male' && tarehe.getDay() == week.indexOf('Wednesday')){
+        p5.innerHTML = 'Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + maleAkanNames[3]
+    } 
+    else if(genders.value == 'male' && tarehe.getDay() == week.indexOf('Thursday')){
+        p5.innerHTML = 'Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + maleAkanNames[4]
+    } 
+    else if(genders.value == 'male' && tarehe.getDay() == week.indexOf('Friday')){
+        p5.innerHTML = 'Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + maleAkanNames[5]
+    } 
+    else if(genders.value == 'male' && tarehe.getDay() == week.indexOf('Saturday')){
+        p5.innerHTML = 'Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + maleAkanNames[6]
     }
+    if(genders.value == 'female' && tarehe.getDay() == week.indexOf('Sunday')){
+        p5.innerHTML ='Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + femaleAkanNames[0]
+    } 
+    else if(genders.value == 'female' && tarehe.getDay() == week.indexOf('Monday')){
+        p5.innerHTML = 'Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + femaleAkanNames[1]
+    } 
+    else if(genders.value == 'female' && tarehe.getDay() == week.indexOf('Tuesday')){
+        p5.innerHTML = 'Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + femaleAkanNames[2]
+    } 
+    else if(genders.value == 'female' && tarehe.getDay() == week.indexOf('Wednesday')){
+        p5.innerHTML = 'Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + femaleAkanNames[3]
+    } 
+    else if(genders.value == 'female' && tarehe.getDay() == week.indexOf('Thursday')){
+        p5.innerHTML = 'Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + femaleAkanNames[4]
+    } 
+    else if(genders.value == 'female' && tarehe.getDay() == week.indexOf('Friday')){
+        p5.innerHTML = 'Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + femaleAkanNames[5]
+    } 
+    else if(genders.value == 'female' && tarehe.getDay() == week.indexOf('Saturday')){
+        p5.innerHTML = 'Hi'+' '+ yourName.value +' '+ 'Your Akan name is:' + ' ' + femaleAkanNames[6]
 }
-
-
-
+}
