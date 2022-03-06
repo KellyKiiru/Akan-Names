@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    align-items: center;
+    margin: 0;;
+    box-sizing: border-box;
+    height: max-content;
+    /* border: dotted red 2px; */
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #585247;
+    background-image: linear-gradient(to right,#f9ebc6,#585247);
+    /* background-image: url('/sky.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.west{
+    background-color: #585247;
+    background-image: linear-gradient(to right,#f9ebc6,#585247);
+}
