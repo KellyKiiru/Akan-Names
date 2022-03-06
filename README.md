@@ -30,7 +30,9 @@ Go live, input your birthday and submit to see your Akan name.</p>
 ## Technology Used
 * HTNL - which was used to build the structure of the pages.
 
-* CSS - which was used to style the pages incuding the left aside navigation bar
+* CSS - which was used to style the pages incuding the left aside navigation bar.
+
+* JAVASCRIPT - was instrumental in the backend and sorting out the conditions.
 
 ## Reference
 * Materialize CSS
