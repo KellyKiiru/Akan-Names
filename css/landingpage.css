@@ -38,8 +38,12 @@ footer{
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     display: flex;
-    justify-content: flex-end;
-    
+    justify-content: center;
+}
+.footer{
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-around;
 }
 main{
     padding: 50px;
