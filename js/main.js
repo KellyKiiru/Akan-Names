@@ -34,7 +34,10 @@ function myFunction() {
 
     if (yourName.value === '' || yourName.value == null){
         alert('please input name')
-    } 
+    }
+    else if(date.value === '' || date.value == null && month.value === '' || month.value == null && year.value === '' || year.value == null){
+        alert('please input date')
+    }
     else if(genders.value == 'male' && tarehe.getDay() == week.indexOf('Sunday')){ 
         p5.innerHTML ='Hi'+' '+ yourName.value +', '+ 'your Akan name is:' + ' ' + maleAkanNames[0]
     } 
