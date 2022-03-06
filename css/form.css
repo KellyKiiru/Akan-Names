@@ -1,0 +1,12 @@
+.formback{
+    display: flex;
+    justify-content: center;
+}
+.formfront{
+    background-color: black;
+    border: white 2px solid;
+}
+.formfront div{
+    display: flex;
+    flex-direction: column;
+}
