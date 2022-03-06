@@ -20,7 +20,6 @@ let genders = document.getElementById('gender')
 
 const week = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 
-
 const maleAkanNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",]
 
 const femaleAkanNames =['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama']
@@ -83,5 +82,24 @@ function myFunction() {
     else if(genders.value == 'female' && tarehe.getDay() == week.indexOf('Saturday')){
         p5.innerHTML = 'Hi'+' '+ yourName.value +', '+ 'your Akan name is:' + ' ' + femaleAkanNames[6]
 }
-}
+p5.style.backgroundColor = 'white'
 
+p5.style.padding ='10px'
+
+p5.style.color= 'black'
+
+p5.style.borderRadius = '10px'
+
+p5.style.fontSize = 'large'
+
+p5.style.transition = '1.5s'
+
+p5.style.transitionDuration = '1.5s'
+
+p5.style.transitionProperty = 'ease in and ease out'
+
+p5.style.width = '80%'
+
+p5.style.textAlign = 'center'
+
+}
