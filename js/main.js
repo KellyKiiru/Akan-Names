@@ -36,6 +36,9 @@ function myFunction() {
         alert('please input name')
     }
     else if(date.value === '' || date.value == null && month.value === '' || month.value == null && year.value === '' || year.value == null){
+        if(date.value == null || month.value == null || year.value == null){
+            alert('please input date')
+        }
         alert('please input date')
     }
     else if(genders.value == 'male' && tarehe.getDay() == week.indexOf('Sunday')){ 
