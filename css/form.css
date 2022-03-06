@@ -3,10 +3,18 @@
     justify-content: center;
 }
 .formfront{
+    display: flex;
+    justify-content: center;
+    color: white;
     background-color: black;
-    border: white 2px solid;
+    border: rgb(255, 0, 0) 2px solid;
 }
 .formfront div{
     display: flex;
     flex-direction: column;
+}
+.formfront div input{
+    position: relative;
+    left: 20px;
+    /* width: 50%; */
 }
