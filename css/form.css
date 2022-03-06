@@ -6,15 +6,36 @@
     display: flex;
     justify-content: center;
     color: white;
-    background-color: black;
-    border: rgb(255, 0, 0) 2px solid;
+    background-color: #f9ecc8;
+    /* border: rgb(255, 0, 0) 2px solid; */
+    border-radius: 10px;
+}
+.myForm{
+    position: relative;
+    top: 20px;
+    padding-bottom: 50px;
 }
 .formfront div{
     display: flex;
     flex-direction: column;
 }
 .formfront div input{
+    color: black;
     position: relative;
     left: 20px;
-    /* width: 50%; */
+    background-color: #f9ecc8;
+    border-radius:10px ;
+    margin-bottom:20px ;
+}
+.formfront div label{
+    color: black;
+    position: relative;
+    left: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+main{
+    background-color: #585247;
+    padding-top: 50px;
+    min-height: 100vh;
 }
