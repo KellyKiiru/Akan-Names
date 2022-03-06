@@ -32,7 +32,7 @@ function myFunction() {
 
     let tarehe = new Date(year.value + ',' + month.value + ',' + date.value);
 
-    p1.innerHTML = tarehe.getDay()
+    p1.innerHTML = genders.value
 
     p2.innerHTML = maleAkanNames[5]
 
@@ -43,7 +43,7 @@ function myFunction() {
     if (yourName.value === '' || yourName.value == null){
         alert('please input name')
     } 
-    if(gender.value == 'male' && tarehe.getDay() == week.indexOf('Friday')){
+    if(genders.value == 'male' && tarehe.getDay() == week.indexOf('Friday')){
         p5.innerHTML = 'Your Akan name is:' + ' ' + maleAkanNames[5]
     }
 }
