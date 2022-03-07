@@ -23,10 +23,6 @@
     background-position:left , right;
     background-repeat: no-repeat;
     background-attachment: fixed; */
-    background-image:url("/sky.jpeg");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 .west{
     background-color: #585247;
