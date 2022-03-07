@@ -23,14 +23,14 @@
     background-position:left , right;
     background-repeat: no-repeat;
     background-attachment: fixed; */
+}
+.west{
+    /* background-color: #585247;
+    background-image: linear-gradient(to right,#f9ebc6,#585247); */
     background-image:url("/sky.jpeg");
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-.west{
-    background-color: #585247;
-    background-image: linear-gradient(to right,#f9ebc6,#585247);
 }
 footer{
     background-color: #585247;
