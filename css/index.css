@@ -19,7 +19,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-image:url("/sky.jpeg"), linear-gradient(to right,#585247,#f9ebc6);
+    background-image:url("sky.jpeg"), linear-gradient(to right,#585247,#f9ebc6);
     background-position:left , right;
     background-repeat: no-repeat;
     background-attachment: fixed;
