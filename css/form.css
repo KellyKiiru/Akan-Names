@@ -6,8 +6,12 @@
     display: flex;
     justify-content: center;
     color: white;
-    background-color: #f9ecc8;
+    /* background-color: #f9ecc8; */
     /* border: rgb(255, 0, 0) 2px solid; */
+    background-image: url('https://i.pinimg.com/originals/6e/f4/97/6ef49719fe10f5ef3ef5be3eee19703a.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
 }
 .myForm{
@@ -35,7 +39,11 @@
     text-decoration: underline;
 }
 main{
-    background-color: #585247;
+    background-image: url('https://i.pinimg.com/originals/6e/f4/97/6ef49719fe10f5ef3ef5be3eee19703a.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #585247; */
     padding-top: 50px;
     min-height: 100vh;
 }
